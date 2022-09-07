@@ -1,0 +1,41 @@
+name: tawsila_user
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-165.1.beta <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.20.1
+  firebase_auth: ^3.6.3
+  firebase_database: ^9.1.1
+  fluttertoast: ^8.0.9
+  google_maps_flutter: ^2.1.10
+  geolocator: ^9.0.1
+  http: ^0.13.5
+  provider: ^6.0.3
+  flutter_polyline_points: ^1.0.0
+  flutter_geofire: ^2.0.1
+  smooth_star_rating_nsafe: ^1.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+
